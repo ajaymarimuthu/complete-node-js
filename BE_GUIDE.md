@@ -64,4 +64,24 @@ Node js can process multiple requests because of event loop leading to nodejs be
 
 IT is a framwork on top of nodejs which proivdes you with ease to do thing over nodejs
 
-To run a nodejs file. 
+To run a nodejs file.
+
+# ===========================================================================================================================================
+
+# Day 2
+
+Api is used to communcicate between the server and client
+Api return data in json format
+
+who has these API's ? a server has these api's ans it returns these api's to the end user based on the end user.
+
+Is the particular url is hit then the server need to recognize the request accept it and responds to the request with required data.
+
+To route it to any pages we can check in the req.url about the route and we can show the desired resluts
+
+
+### HTTP METHODS:
+GET  - read data
+POST  - WRITE THE data
+PUT  - UPDATE data
+DELETE  - DELETE data

@@ -148,7 +148,14 @@ const port = 3000;
 const host = "localhost";
 const server = http.createServer((req, res) => {
   res.setHeader("content-type", "text/plain");
-  res.write("Helllooo");
+
+  if (req.url === "/") {
+    res.write("Helllooo");
+  } else if (req.url === "/about") {
+    res.write("about page");
+  } else {
+    res.write("page not found------------");
+  }
   res.end();
 });
 
