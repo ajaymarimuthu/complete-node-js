@@ -41,6 +41,14 @@ app.get("/course/:id", (req, res) => {
   res.end();
 });
 
+app.get("/about", (req, res) => {
+  console.log("------", req.body);
+  console.log("====================================");
+  // console.log(typeof req.body);
+  res.send('aboutttttttttttttttt')
+  console.log("====================================");
+});
+
 app.post("/courses", (req, res) => {
   console.log("------", req.body);
   console.log("====================================");
